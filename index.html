@@ -1,50 +1,35 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JS Homework</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/index.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">Gallery</div>
-      <span class="header-label">Домашнє завдання з JavaScript</span>
-    </header>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Галерея</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <main>
-      <div class="hero-text">
-        <h1>Лабораторна робота №4</h1>
-        <p>Розробка <span>WEB-вузла</span> з використанням масиву даних</p>
-      </div>
+<header>Моя Галерея</header>
 
-      <div class="cards">
-        <a class="card" href="01-gallery.html">
-          <div class="card-num">Завдання 01</div>
-          <div class="card-title">Image Gallery</div>
-          <div class="card-desc">
-            Власна галерея з модальним вікном, навігацією клавіатурою та
-            делегуванням подій.
-          </div>
-        </a>
+<div class="gallery">
+    <div class="gallery-item">
+        <img src="https://picsum.photos/id/1015/400/300" alt="Фото 1">
+        <div class="caption">Фото 1</div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://picsum.photos/id/1016/400/300" alt="Фото 2">
+        <div class="caption">Фото 2</div>
+    </div>
+    <div class="gallery-item">
+        <img src="https://picsum.photos/id/1018/400/300" alt="Фото 3">
+        <div class="caption">Фото 3</div>
+    </div>
+</div>
 
-        <a class="card" href="02-lightbox.html">
-          <div class="card-num">Завдання 02</div>
-          <div class="card-title">SimpleLightbox Library</div>
-          <div class="card-desc">
-            Галерея з підключеною бібліотекою SimpleLightbox, підписи та
-            анімації.
-          </div>
-        </a>
-      </div>
-    </main>
+<!-- Модалка -->
+<div class="modal" id="modal">
+    <img id="modal-img" src="" alt="">
+</div>
 
-
-  </body>
+<script src="script.js"></script>
+</body>
 </html>
