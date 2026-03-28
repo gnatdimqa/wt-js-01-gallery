@@ -1,13 +1,10 @@
-/* Основні налаштування */
 body {
     font-family: 'Inter', sans-serif;
     background-color: #fdfdfd;
     color: #333;
     margin: 0;
-    padding: 0;
 }
 
-/* Заголовок сайту */
 header {
     text-align: center;
     padding: 20px 0;
@@ -16,7 +13,6 @@ header {
     color: #2c3e50;
 }
 
-/* Галерея */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -26,7 +22,6 @@ header {
     margin: 0 auto;
 }
 
-/* Карточка фото */
 .gallery-item {
     background-color: #fff;
     border-radius: 12px;
@@ -41,14 +36,12 @@ header {
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-/* Фото */
 .gallery-item img {
     width: 100%;
     display: block;
     border-bottom: 1px solid #eee;
 }
 
-/* Підпис під фото */
 .gallery-item .caption {
     padding: 10px;
     font-size: 0.9rem;
@@ -56,7 +49,6 @@ header {
     text-align: center;
 }
 
-/* Модальне вікно */
 .modal {
     position: fixed;
     top: 0;
